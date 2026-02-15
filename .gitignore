@@ -1,0 +1,49 @@
+# Sensitive files
+MBURU.md
+.env
+firebase-*.json
+*.key
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Database
+*.sqlite
+*.db
+
+# Firebase
+firebase-debug.log

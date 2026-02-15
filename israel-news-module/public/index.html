@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Israel News - Insight Viewer</title>
+    <meta name="api-base-url" content="">
+    <meta name="api-key" content="">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Israel News</h1>
+            <p class="subtitle">Real-time Israeli insights across Farming, Tech, Politics & Hospitality</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <nav class="category-tabs">
+            <button class="tab-btn active" data-category="all">All News</button>
+            <button class="tab-btn" data-category="farming">Farming</button>
+            <button class="tab-btn" data-category="tech">Tech</button>
+            <button class="tab-btn" data-category="politics">Politics</button>
+            <button class="tab-btn" data-category="hospitality">Hospitality</button>
+        </nav>
+
+        <div class="content">
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+                <p>Loading news...</p>
+            </div>
+
+            <div id="error" class="error" style="display: none;">
+                <p id="error-message">Failed to load news. Please try again later.</p>
+                <button id="retry-btn" type="button">Retry</button>
+            </div>
+
+            <div id="news-grid" class="news-grid">
+                <!-- News cards will be inserted here -->
+            </div>
+        </div>
+
+        <div class="pagination">
+            <button id="load-more" class="load-more" style="display: none;">Load More</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Israel News Module &copy; 2026 | Powered by NewsAPI.org & OpenAI</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

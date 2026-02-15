@@ -1,0 +1,63 @@
+{
+  "news_sources": {
+    "israel": {
+      "country_code": "il",
+      "language": "en",
+      "categories": [
+        "general",
+        "technology",
+        "business",
+        "science",
+        "health",
+        "sports",
+        "entertainment"
+      ]
+    }
+  },
+  "sectors": {
+    "farming": {
+      "keywords": ["agriculture", "farming", "farmers", "crops", "livestock", "agtech"],
+      "search_queries": [
+        "Israel agriculture farming",
+        "Israeli farmers",
+        "Israel agricultural technology"
+      ]
+    },
+    "tech": {
+      "keywords": ["technology", "tech", "startup", "innovation", "AI", "cybersecurity"],
+      "search_queries": [
+        "Israel technology",
+        "Israeli startup",
+        "Tel Aviv tech"
+      ]
+    },
+    "politics": {
+      "keywords": ["politics", "government", "Knesset", "election", "policy"],
+      "search_queries": [
+        "Israel politics",
+        "Israeli government",
+        "Knesset news"
+      ]
+    },
+    "hospitality": {
+      "keywords": ["hotel", "tourism", "restaurant", "hospitality", "travel"],
+      "search_queries": [
+        "Israel tourism",
+        "Israeli hotels",
+        "Israel restaurants"
+      ]
+    }
+  },
+  "news_domains": [
+    "ynet.co.il",
+    "haaretz.co.il",
+    "timesofisrael.com",
+    "calcalist.co.il",
+    "jpost.com",
+    "israelhayom.com"
+  ],
+  "rate_limits": {
+    "requests_per_minute": 100,
+    "max_results_per_request": 100
+  }
+}

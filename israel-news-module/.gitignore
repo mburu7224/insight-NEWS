@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+
+api/node_modules/
+__pycache__/
+*.pyc
+
+ingestor/output.json
+*.log
